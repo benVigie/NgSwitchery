@@ -60,7 +60,7 @@ angular.module('NgSwitchery', [])
                         ngModel.$setViewValue(element.checked);
                     })
                 })
-              }, 0);
+              }, options.delay || 0);
             }
             initializeSwitch();
           }
